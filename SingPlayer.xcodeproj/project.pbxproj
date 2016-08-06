@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0320886BD13AF4E95912A7 /* libPods-SingPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A82C0BBC7EFF87D8C6F84FB5 /* libPods-SingPlayer.a */; };
 		5EC07F161D55C2E0000309B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC07F151D55C2E0000309B6 /* main.m */; };
 		5EC07F191D55C2E0000309B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC07F181D55C2E0000309B6 /* AppDelegate.m */; };
-		5EC07F1C1D55C2E0000309B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC07F1B1D55C2E0000309B6 /* ViewController.m */; };
-		5EC07F1F1D55C2E0000309B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC07F1D1D55C2E0000309B6 /* Main.storyboard */; };
 		5EC07F211D55C2E0000309B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC07F201D55C2E0000309B6 /* Assets.xcassets */; };
-		5EC07F241D55C2E0000309B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC07F221D55C2E0000309B6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09840E052C29BC0F1E37E93F /* Pods-SingPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		5EC07F111D55C2E0000309B6 /* SingPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC07F151D55C2E0000309B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5EC07F171D55C2E0000309B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5EC07F181D55C2E0000309B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5EC07F1A1D55C2E0000309B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EC07F1B1D55C2E0000309B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5EC07F1E1D55C2E0000309B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EC07F171D55C2E0000309B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		5EC07F181D55C2E0000309B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		5EC07F201D55C2E0000309B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5EC07F231D55C2E0000309B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC07F251D55C2E0000309B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC07F301D55C3E9000309B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A82C0BBC7EFF87D8C6F84FB5 /* libPods-SingPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2B743056A318E1C126A7F5 /* Pods-SingPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B0320886BD13AF4E95912A7 /* libPods-SingPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +43,8 @@
 			children = (
 				5EC07F131D55C2E0000309B6 /* SingPlayer */,
 				5EC07F121D55C2E0000309B6 /* Products */,
+				94B086AA09359CB8E62BD2E0 /* Pods */,
+				9CB07555C1B9B40327103019 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +59,11 @@
 		5EC07F131D55C2E0000309B6 /* SingPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				5EC07F171D55C2E0000309B6 /* AppDelegate.h */,
-				5EC07F181D55C2E0000309B6 /* AppDelegate.m */,
-				5EC07F1A1D55C2E0000309B6 /* ViewController.h */,
-				5EC07F1B1D55C2E0000309B6 /* ViewController.m */,
-				5EC07F1D1D55C2E0000309B6 /* Main.storyboard */,
-				5EC07F201D55C2E0000309B6 /* Assets.xcassets */,
-				5EC07F221D55C2E0000309B6 /* LaunchScreen.storyboard */,
-				5EC07F251D55C2E0000309B6 /* Info.plist */,
+				5EC07F2D1D55C3C3000309B6 /* Model */,
+				5EC07F2C1D55C3C3000309B6 /* MainController */,
+				5EC07F2B1D55C3C3000309B6 /* ChildClass */,
+				5EC07F2E1D55C3C3000309B6 /* Ohter */,
+				5EC07F2F1D55C3C3000309B6 /* Resource */,
 				5EC07F141D55C2E0000309B6 /* Supporting Files */,
 			);
 			path = SingPlayer;
@@ -74,9 +72,122 @@
 		5EC07F141D55C2E0000309B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5EC07F201D55C2E0000309B6 /* Assets.xcassets */,
+				5EC07F251D55C2E0000309B6 /* Info.plist */,
 				5EC07F151D55C2E0000309B6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EC07F2B1D55C3C3000309B6 /* ChildClass */ = {
+			isa = PBXGroup;
+			children = (
+				5EC07F341D55C452000309B6 /* HomePage */,
+			);
+			path = ChildClass;
+			sourceTree = "<group>";
+		};
+		5EC07F2C1D55C3C3000309B6 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				5EC07F171D55C2E0000309B6 /* AppDelegate.h */,
+				5EC07F181D55C2E0000309B6 /* AppDelegate.m */,
+				5EC07F311D55C430000309B6 /* Controller */,
+				5EC07F321D55C430000309B6 /* Model */,
+				5EC07F331D55C430000309B6 /* View */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		5EC07F2D1D55C3C3000309B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EC07F2E1D55C3C3000309B6 /* Ohter */ = {
+			isa = PBXGroup;
+			children = (
+				5EC07F301D55C3E9000309B6 /* PrefixHeader.pch */,
+			);
+			path = Ohter;
+			sourceTree = "<group>";
+		};
+		5EC07F2F1D55C3C3000309B6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5EC07F311D55C430000309B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EC07F321D55C430000309B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EC07F331D55C430000309B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EC07F341D55C452000309B6 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				5EC07F351D55C452000309B6 /* Controller */,
+				5EC07F361D55C452000309B6 /* Model */,
+				5EC07F371D55C452000309B6 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		5EC07F351D55C452000309B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5EC07F361D55C452000309B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EC07F371D55C452000309B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94B086AA09359CB8E62BD2E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF2B743056A318E1C126A7F5 /* Pods-SingPlayer.debug.xcconfig */,
+				09840E052C29BC0F1E37E93F /* Pods-SingPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CB07555C1B9B40327103019 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A82C0BBC7EFF87D8C6F84FB5 /* libPods-SingPlayer.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EC07F281D55C2E0000309B6 /* Build configuration list for PBXNativeTarget "SingPlayer" */;
 			buildPhases = (
+				36A192FEF2E38E9B9349D32D /* [CP] Check Pods Manifest.lock */,
 				5EC07F0D1D55C2E0000309B6 /* Sources */,
 				5EC07F0E1D55C2E0000309B6 /* Frameworks */,
 				5EC07F0F1D55C2E0000309B6 /* Resources */,
+				007CCF91CEC78CCF300A2FC0 /* [CP] Embed Pods Frameworks */,
+				DA5B77B912EA01B3EF6326D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,45 +250,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC07F241D55C2E0000309B6 /* LaunchScreen.storyboard in Resources */,
 				5EC07F211D55C2E0000309B6 /* Assets.xcassets in Resources */,
-				5EC07F1F1D55C2E0000309B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007CCF91CEC78CCF300A2FC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36A192FEF2E38E9B9349D32D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5B77B912EA01B3EF6326D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingPlayer/Pods-SingPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5EC07F0D1D55C2E0000309B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC07F1C1D55C2E0000309B6 /* ViewController.m in Sources */,
 				5EC07F191D55C2E0000309B6 /* AppDelegate.m in Sources */,
 				5EC07F161D55C2E0000309B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5EC07F1D1D55C2E0000309B6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EC07F1E1D55C2E0000309B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5EC07F221D55C2E0000309B6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EC07F231D55C2E0000309B6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5EC07F261D55C2E0000309B6 /* Debug */ = {
@@ -263,9 +403,12 @@
 		};
 		5EC07F291D55C2E0000309B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2B743056A318E1C126A7F5 /* Pods-SingPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SingPlayer/Ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = SingPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sy.SingPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,9 +417,12 @@
 		};
 		5EC07F2A1D55C2E0000309B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09840E052C29BC0F1E37E93F /* Pods-SingPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SingPlayer/Ohter/PrefixHeader.pch";
 				INFOPLIST_FILE = SingPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Sy.SingPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +448,7 @@
 				5EC07F2A1D55C2E0000309B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
